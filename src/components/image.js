@@ -18,7 +18,7 @@ const Image = () => {
     return <div>Picture not found</div>
   }
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Weir Plumbing, Heating and Cooling Logo. Call 505-407-9347" />
 }
 
 export default Image
